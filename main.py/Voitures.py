@@ -32,3 +32,6 @@ class Parking:
         self.voitures.remove(voiture)
         print("Voiture retiree")
         print("Places libres:", self.calculerNbrPlacesLibres())
+
+    def calculerNbrPlacesLibres(self):
+            return self.capacite - len(self.voitures)
