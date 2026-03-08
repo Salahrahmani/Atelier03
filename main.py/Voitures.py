@@ -5,3 +5,9 @@ class Voiture:
         self.immatriculation = immatriculation
     def Afficher(self):
         print(self.marque, self.model, self.immatriculation)
+
+
+class Parking:
+    def __init__(self ,capacite):
+        self.capacite = capacite
+        self.voitures = []
