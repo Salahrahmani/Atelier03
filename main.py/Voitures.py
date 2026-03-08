@@ -11,3 +11,15 @@ class Parking:
     def __init__(self ,capacite):
         self.capacite = capacite
         self.voitures = []
+    def entrerVoiture(self, voiture):
+
+        if voiture in self.voitures:
+            print("La Voiture Deja existe Dans le Parking")
+            return
+
+        if len(self.voitures) >= self.capacite:
+            print(" PARDON *Le Parking Plein* ")
+            return
+
+        self.voitures.append(voiture)
+        print("Le Voiture a été ajouté ")
