@@ -35,3 +35,5 @@ class Parking:
 
     def calculerNbrPlacesLibres(self):
             return self.capacite - len(self.voitures)
+
+    Parking=Parking(3)
