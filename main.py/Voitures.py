@@ -45,3 +45,5 @@ Parking.entrerVoiture(v1)
 Parking.entrerVoiture(v2)
 Parking.entrerVoiture(v3)
 Parking.entrerVoiture(v4)
+
+Parking.sortirVoiture(v2)
