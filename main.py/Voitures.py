@@ -37,3 +37,7 @@ class Parking:
             return self.capacite - len(self.voitures)
 
     Parking=Parking(3)
+v1 = Voiture("Kia", "Soul", "FF111156")
+v2 = Voiture("Caldilac", "Escalad", "HG252")
+v3 = Voiture("Ford", "Edge", "BS879")
+v4 = Voiture("VW", "Passat", "SR984")
