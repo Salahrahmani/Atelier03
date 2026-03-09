@@ -36,8 +36,12 @@ class Parking:
     def calculerNbrPlacesLibres(self):
             return self.capacite - len(self.voitures)
 
-    Parking=Parking(3)
+Parking=Parking(3)
 v1 = Voiture("Kia", "Soul", "FF111156")
 v2 = Voiture("Caldilac", "Escalad", "HG252")
 v3 = Voiture("Ford", "Edge", "BS879")
 v4 = Voiture("VW", "Passat", "SR984")
+Parking.entrerVoiture(v1)
+Parking.entrerVoiture(v2)
+Parking.entrerVoiture(v3)
+Parking.entrerVoiture(v4)
